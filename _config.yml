@@ -16,6 +16,7 @@ paginate_path: "/page/:num/"
 header_pages:
    - debian.md
    - windows.md
+   - github.md
 
 social:
   name: Daniel Leidert
