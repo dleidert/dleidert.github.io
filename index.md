@@ -1,6 +1,6 @@
 ---
 layout: home
-title: dleidert
+title: About me
 description: >
   About me and my open source work.
 tags:
