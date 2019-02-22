@@ -13,7 +13,7 @@ paginate: 6
 paginate_path: "/page/:num/"
 #excerpt_separator: <!-- excerpt -->
 
-#header_pages:
+header_pages:
 #  - about.md
 
 social:
