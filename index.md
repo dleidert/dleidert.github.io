@@ -1,6 +1,7 @@
 ---
 layout: home
 title: About me
+list_title: Related projects and project work
 description: >
   About me and my open source work.
 tags:
