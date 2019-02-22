@@ -1,1 +1,46 @@
-theme: jekyll-theme-minimal
+theme: minima
+title: About me
+description: >
+  About me (dleidert) and my open source work
+author: Daniel Leidert
+email: daniel.leidert@wgdd.de
+lang: en
+show_downloads: true
+show_excerpts: true
+google_analytics:
+google_site_verification: gPitPikijaA6VSAckqTh85FsSKzUU0kuVRIRpLqNA08
+paginate: 6
+paginate_path: "/page/:num/"
+#excerpt_separator: <!-- excerpt -->
+
+#header_pages:
+#  - about.md
+
+social:
+  name: Daniel Leidert
+  links:
+    - https://github.com/dleidert/
+    - https://instagram.com/daniel.leidert/
+    - https://salsa.debian.org/dleidert
+    - https://www.xing.com/profile/Daniel_Leidert
+    - https://m.youtube.com/channel/UCcByb2fCTx7B8QwZBdGxDgA
+
+# minima >2.5.0 (current master)
+minima:
+  social_links:
+    github: dleidert
+    instagram: daniel.leidert
+    youtube_channel: UCcByb2fCTx7B8QwZBdGxDgA
+    rss: rss
+
+# minima 2.5.0
+github_username: dleidert
+instagram_username: daniel.leidert
+rss: rss
+
+plugins:
+ - jekyll-feed
+ - jekyll-paginate
+ - jekyll-redirect-from
+ - jekyll-seo-tag
+ - jekyll-sitemap
