@@ -22,6 +22,7 @@ install:
 - bundle install
 
 script: 
+- ls -lA
 - bundle exec jekyll build
 
 after_success:
