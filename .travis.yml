@@ -20,6 +20,7 @@ env:
 
 install:
 - gem install jekyll html-proofer
+- gem install nokogiri -v 1.9.1
 
 script: 
 - bundle exec jekyll build
