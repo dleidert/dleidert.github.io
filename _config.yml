@@ -16,6 +16,9 @@ paginate_path: "/page/:num/"
 exclude:
   - README.md
   - "**/README.md"
+  - Gemfile
+  - node_modules
+  - vendor
 
 header_pages:
    - debian.md
