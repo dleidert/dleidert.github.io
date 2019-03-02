@@ -18,14 +18,14 @@ header_pages:
    - windows.md
    - github.md
 
-social:
-  name: Daniel Leidert
-  links:
-    - https://github.com/dleidert/
-    - https://instagram.com/daniel.leidert/
-    - https://salsa.debian.org/dleidert
-    - https://www.xing.com/profile/Daniel_Leidert
-    - https://m.youtube.com/channel/UCcByb2fCTx7B8QwZBdGxDgA
+#social:
+#  name: Daniel Leidert
+#  links:
+#    - https://github.com/dleidert/
+#    - https://instagram.com/daniel.leidert/
+#    - https://salsa.debian.org/dleidert
+#    - https://www.xing.com/profile/Daniel_Leidert
+#    - https://m.youtube.com/channel/UCcByb2fCTx7B8QwZBdGxDgA
 
 # minima >2.5.0 (current master)
 minima:
