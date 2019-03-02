@@ -1,0 +1,44 @@
+{%- assign social = site.minima.social_links -%}
+{
+  "@context": "http://schema.org/",
+  "@type": "Person",
+  "name": "{{ site.author | default: site.github.owner.name }}",
+  "email": "mailto:{{ site.email | default: site.github.owner.email }}",
+  "nationality": "German",
+  "gender": "http://schema.org/Male",
+  "description": "{{ site.github.owner.bio }}",
+  "url": "{{ site.github.owner.blog }}",
+  "sameAs": [
+    "https://qa.debian.org/developer.php?login={{ site.debian_username | default: social.debian | cgi_escape | escape }}@debian.org",
+    "https://salsa.debian.org/{{ site.debian_username | default: social.debian | cgi_escape | escape }}",
+    "https://github.com/{{ site.github_username | default: social.github | cgi_escape | escape }}",
+    "https://instagram.com/{{ site.instagram_username | default: social.instagram | cgi_escape | escape }}",
+    "https://www.xing.com/profile/{{ site.xing_username | default: social.xing | cgi_escape | escape }}",
+    "https://m.youtube.com/channel/{{ site.youtube_username | default: social.youtube_channel | cgi_escape | escape }}",
+    "https://pgp.mit.edu/pks/lookup?op=get&search={{ site.gnupg_key | default: social.gnupg | cgi_escape | escape }}",
+    "{{ site.url }}"
+  ],
+  "alumniOf": {
+    "@type": "Organization",
+    "name": "Technische Universität Dresden",
+    "location": {
+      "@type": "PostalAddress",
+      "postalCode": "01069",
+      "addressLocality": "Dresden",
+      "addressCountry": "Germany"
+    }
+  },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "{{ site.github.owner.company }}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Dr.-Külz-Ring 19",
+      "postalCode": "01067",
+      "addressLocality": "Dresden",
+      "addressCountry": "Germany"
+    }
+  },
+  "knowsLanguage": ["German", "English", "Italian"],
+  "homeLocation": "{{ site.github.owner.location }}"
+}
