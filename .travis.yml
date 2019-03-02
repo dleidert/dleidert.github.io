@@ -23,7 +23,7 @@ install:
 
 script: 
 - ls -lA
-- bundle exec jekyll build
+- bundle exec jekyll build --trace
 
 after_success:
 - bundle exec htmlproofer ./_site --disable-external
