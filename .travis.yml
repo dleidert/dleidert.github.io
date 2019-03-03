@@ -24,11 +24,15 @@ addons:
     packages:
     - libcurl4-openssl-dev
 
+rvm:
+- 2.3
+- 2.4
+- 2.5
+
 matrix:
   include:
   - rvm: 2.1
     gemfile: gemfiles/2.1.Gemfile
-  - rvm: 2.3 2.4 2.5
 
 install:
 - bundle install
