@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 gem "github-pages"
 gem "jekyll"
-gem "html-proofer"
 
 group :jekyll_plugins do
   gem "jekyll-feed"
@@ -11,3 +10,8 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
 end
+
+group :test do
+  gem "html-proofer"
+end
+
