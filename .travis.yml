@@ -13,7 +13,9 @@ notifications:
     on_success: never
 
 branches:
-  only: master
+  only:
+  - master
+  - devel
 
 env:
   global:
