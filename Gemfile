@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "github-pages", group: :jekyll_plugins
+gem "github-pages", ">=104", roup: :jekyll_plugins
 
 platforms :ruby_21 do
   gem "rb-inotify", "~> 0.9"
