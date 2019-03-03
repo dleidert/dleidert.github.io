@@ -11,12 +11,21 @@ notifications:
 branches:
   only: master
 
-rvm: 2.1
+rvm:
+- 2.1
+- 2.3
 
 env:
   global:
   - JEKYLL_ENV=production
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+matrix:
+  include:
+  - rvm: 2.1
+    gemfile: gemfiles/2.1.Gemfile
+  - rvm: 2.3
+    gemfile: gemfiles/2.3.Gemfile
 
 install:
 - bundle install
