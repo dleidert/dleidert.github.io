@@ -17,7 +17,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - /gemfiles/
-  - /node_modules"
+  - /node_modules
   - /vendor/
   - .travis.yml
   - ".git*"
