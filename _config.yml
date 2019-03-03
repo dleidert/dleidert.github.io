@@ -21,7 +21,8 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - README.md
+  - .travis.yml
+  - ".git*"
   - "**/README.md"
 
 header_pages:
