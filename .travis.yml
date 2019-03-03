@@ -34,9 +34,6 @@ matrix:
   - rvm: 2.1
     gemfile: gemfiles/2.1.Gemfile
 
-install:
-- bundle install
-
 script: 
 - bundle exec jekyll build --trace
 # https://github.com/gjtorikian/html-proofer/wiki/Using-HTMLProofer-From-Ruby-and-Travis
