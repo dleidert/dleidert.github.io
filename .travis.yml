@@ -37,6 +37,10 @@ rvm:
 #    gemfile: gemfiles/2.1.Gemfile
 #
 
+before_script:
+- bundle update github-pages
+- bundle update
+
 script: 
 - bundle exec jekyll build --trace
 # https://github.com/gjtorikian/html-proofer/wiki/Using-HTMLProofer-From-Ruby-and-Travis
