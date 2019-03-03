@@ -31,16 +31,6 @@ rvm:
 - 2.4
 - 2.5
 
-#matrix:
-#  include:
-#  - rvm: 2.1
-#    gemfile: gemfiles/2.1.Gemfile
-#
-
-before_script:
-- bundle update github-pages
-- bundle update
-
 script: 
 - bundle exec jekyll build --trace
 # https://github.com/gjtorikian/html-proofer/wiki/Using-HTMLProofer-From-Ruby-and-Travis
@@ -53,5 +43,5 @@ script:
   --enforce-https
   --timeframe 4w ./_site
 
-after_sucess:
+after_success:
 - find ./_site -type f
