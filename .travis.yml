@@ -3,6 +3,7 @@ language: ruby
 sudo: false
 
 cache:
+  apt: true
   bundler: true
   directories:
   - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
