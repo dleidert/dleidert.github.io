@@ -49,5 +49,5 @@ script:
   --enforce-https
   --timeframe 4w ./_site
 
-after_sucess:
+after_success:
 - find ./_site -type f
