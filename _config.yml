@@ -12,9 +12,6 @@ show_downloads: true
 show_excerpts: true
 google_analytics:
 google_site_verification: gPitPikijaA6VSAckqTh85FsSKzUU0kuVRIRpLqNA08
-paginate: 6
-paginate_path: "/page/:num/"
-#excerpt_separator: <!-- excerpt -->
 
 exclude:
   - Gemfile
