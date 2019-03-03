@@ -37,6 +37,14 @@ install:
 script: 
 - bundle exec jekyll build --trace
 
+
 # https://github.com/gjtorikian/html-proofer/wiki/Using-HTMLProofer-From-Ruby-and-Travis
 after_success:
-- bundle exec htmlproofer --check-opengraph --check-sri --check-html --check-img-http --enforce-https --timeframe 4w ./_site
+- bundle exec htmlproofer \
+    --check-opengraph \
+    --check-sri \
+    --check-html \
+    --check-img-http \
+    --enforce-https  \
+    --url-ignore "/\/bde-lock\/.*/,\http://bluefish.openoffice.nl.*/" \
+    --timeframe 4w ./_site
