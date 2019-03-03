@@ -36,10 +36,7 @@ install:
 
 script: 
 - bundle exec jekyll build --trace
-
-
 # https://github.com/gjtorikian/html-proofer/wiki/Using-HTMLProofer-From-Ruby-and-Travis
-after_success:
 - bundle exec htmlproofer \
     --check-external-hash \
     --check-opengraph \
