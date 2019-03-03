@@ -46,5 +46,4 @@ after_success:
     --check-html \
     --check-img-http \
     --enforce-https  \
-    --url-ignore "/\/bde-lock\/.*/,\http://bluefish.openoffice.nl.*/" \
     --timeframe 4w ./_site
