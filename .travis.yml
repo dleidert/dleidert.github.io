@@ -48,3 +48,6 @@ script:
   --check-img-http
   --enforce-https
   --timeframe 4w ./_site
+
+after_sucess:
+- find ./_site -type f
