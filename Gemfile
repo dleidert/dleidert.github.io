@@ -11,7 +11,4 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
 end
 
-group :test do
-  gem "html-proofer"
-end
-
+gem "html-proofer", :group => :test
