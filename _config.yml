@@ -16,12 +16,12 @@ paginate_path: "/page/:num/"
 exclude:
   - Gemfile
   - Gemfile.lock
-  - **/gemfiles/
-  - **/node_modules
-  - **/vendor/bundle/
-  - **/vendor/cache/
-  - **/vendor/gems/
-  - **/vendor/ruby/
+  - "**/gemfiles/"
+  - "**/node_modules"
+  - "**/vendor/bundle/"
+  - "**/vendor/cache/"
+  - "**/vendor/gems/"
+  - "**/vendor/ruby/"
   - .travis.yml
   - ".git*"
   - "**/README.md"
