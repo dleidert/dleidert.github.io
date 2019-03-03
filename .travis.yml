@@ -39,6 +39,7 @@ rvm:
 
 before_script:
 - bundle update
+- ls -lA
 
 script: 
 - bundle exec jekyll build --trace
